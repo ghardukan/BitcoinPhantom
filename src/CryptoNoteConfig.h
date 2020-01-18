@@ -74,8 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Bitcoinphantom";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001c08f8af8ae5f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101cb034287c07bbd2a7baddc81df3f89b4fd6e423f8aac6f407386d6eeb1ad6ab9";
-
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001c08f8af8ae5f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017cc194ac3f91e2be70ecf2c07e1b508862879e11d5c4844a89ead5ec5ce24e87";
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
@@ -106,8 +105,8 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "35.192.221.142:17333",
-  "35.239.137.57:17333"//<= is this properway to make an array? this comma? there?yeah
+  "18.216.220.98:17333",
+  "18.222.255.212:17333"//<= is this properway to make an array? this comma? there?yeah
 };
 
 struct CheckpointData {
